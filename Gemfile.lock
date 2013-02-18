@@ -1,0 +1,12 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    capistrano-drupal (0.1.9)
+    railsless-deploy (1.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  capistrano-drupal
+  railsless-deploy
