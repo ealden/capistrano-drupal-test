@@ -1,12 +1,18 @@
+GIT
+  remote: git://github.com/ealden/capistrano-drupal
+  revision: 54cce4866aa5169de4264301154652d2e77b15d7
+  branch: fixes
+  specs:
+    capistrano-drupal (0.1.5)
+
 GEM
   remote: http://rubygems.org/
   specs:
-    capistrano-drupal (0.1.9)
     railsless-deploy (1.0.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  capistrano-drupal
+  capistrano-drupal!
   railsless-deploy
