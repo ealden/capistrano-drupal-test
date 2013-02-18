@@ -10,6 +10,7 @@ set :deploy_to, "/srv/capistrano-drupal-test"
 set :deploy_via, :remote_cache
 set :port, 2222
 set :user, "vagrant"
+set :runner_group, "vagrant"
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
